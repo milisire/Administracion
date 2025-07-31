@@ -2,7 +2,8 @@
 const materias = [
     { id: "S0107", nombre: "Matemática I", year: 1, correlativas: { regularizar: [], aprobar: [] } },
     { id: "S0112", nombre: "Matemática II", year: 1, correlativas: { regularizar: ["S0107"], aprobar: ["S0107"] } },
-    { id: "S0115", nombre: "Cálculo Financiero", year: 2, correlativas: { regularizar: ["S0107","S0112"], aprobar: ["S0107","S0112"] } }
+    { id: "S0115", nombre: "Cálculo Financiero", year: 2, correlativas: { regularizar: ["S0107","S0112"], aprobar: ["S0107","S0112"] } },
+    // ... Continuar agregando todas las materias según la info que diste ...
 ];
 
 const container = document.getElementById("malla-container");
