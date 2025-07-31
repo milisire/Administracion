@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Universitaria Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Malla Universitaria</h1>
+        <div id="progress-container">
+            <span id="progress-text">Progreso: 0/0</span>
+            <div id="progress-bar"><div id="progress-fill"></div></div>
+        </div>
+        <button id="reset-progress">Reiniciar progreso</button>
+    </header>
+    <main id="malla-container"></main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-correlativas"></p>
+            <button id="regularizar-btn">Marcar como Regularizada</button>
+            <button id="aprobar-btn">Marcar como Aprobada</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
